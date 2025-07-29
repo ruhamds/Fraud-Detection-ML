@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Set up Python
+    - name: Set up Python 3.10
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
@@ -17,8 +17,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        pip install pytest  # Add this line
+        python -m pip install pytest  # Key change: install as module
+    
+    - name: Verify pytest installation
+      run: |
+        python -m pytest --version
     
     - name: Run tests
       run: |
-        pytest tests/  # Now this will work
+        python -m pytest tests/  # Key change: run as module
