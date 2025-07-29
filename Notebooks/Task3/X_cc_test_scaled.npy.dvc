@@ -1,0 +1,5 @@
+outs:
+- md5: bfe5f1b580c5c68f30278b40f4daff68
+  size: 13619168
+  hash: md5
+  path: X_cc_test_scaled.npy

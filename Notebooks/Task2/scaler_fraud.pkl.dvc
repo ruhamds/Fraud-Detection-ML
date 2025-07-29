@@ -1,0 +1,5 @@
+outs:
+- md5: 19da9229936d125896f245ead99986e7
+  size: 2503
+  hash: md5
+  path: scaler_fraud.pkl

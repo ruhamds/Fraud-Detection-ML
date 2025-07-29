@@ -1,0 +1,5 @@
+outs:
+- md5: 0bcd33dcd6be1d42093e0392b28b14a1
+  size: 13670470
+  hash: md5
+  path: best_cc_model_random_forest.pkl

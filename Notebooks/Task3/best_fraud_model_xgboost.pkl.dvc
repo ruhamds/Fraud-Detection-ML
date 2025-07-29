@@ -1,0 +1,5 @@
+outs:
+- md5: 85e2acb5290b3008606e4b1dbcab2d78
+  size: 326891
+  hash: md5
+  path: best_fraud_model_xgboost.pkl

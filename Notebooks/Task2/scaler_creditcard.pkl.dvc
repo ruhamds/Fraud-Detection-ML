@@ -1,0 +1,5 @@
+outs:
+- md5: afdbf89625499cc61bfd0113ffdf4743
+  size: 1751
+  hash: md5
+  path: scaler_creditcard.pkl

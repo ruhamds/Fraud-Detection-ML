@@ -1,0 +1,5 @@
+outs:
+- md5: bdb19489ebc8230adb8208035e8c7a7c
+  size: 7439168
+  hash: md5
+  path: X_fraud_test_scaled.npy
