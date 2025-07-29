@@ -1,0 +1,5 @@
+outs:
+- md5: 37da0702a4323bfb9a39b44b3a1fe938
+  size: 750
+  hash: md5
+  path: fraud_feature_names.txt

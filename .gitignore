@@ -1,3 +1,4 @@
+@"
 # Python
 __pycache__/
 *.py[cod]
@@ -5,30 +6,22 @@ __pycache__/
 .env
 *.env
 
-# Data
-data/raw/
-data/clean/
-outputs/
-data/
-Notebooks/*.csv
-Notebooks/*.npy
-Notebooks/*.pkl
-Notebooks/*.txt
-
-/data/
-/models/
-/*.pkl
-/*.npy
-
-*.npy
-*.pkl
-*.csv
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
 # Virtual environment
 myenv/
 
+# Jupyter Notebooks
+.ipynb_checkpoints/
 
+# Ignore data files
+Notebooks/Task2/*.pkl
+Notebooks/Task3/*.pkl
+Notebooks/Task3/*.npy
+Notebooks/Task3/*.txt
 
+# BUT track DVC metadata files
+!Notebooks/Task2/*.dvc
+!Notebooks/Task3/*.dvc
+
+# Keep notebooks in Git
+!Notebooks/Task2/model_training.ipynb
+!Notebooks/Task3/model_explain.ipynb
