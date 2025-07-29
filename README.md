@@ -26,7 +26,11 @@ We implemented the complete machine learning lifecycle including:
 
 ```plaintext
 Fraud_detection/
-├── data/                        # Raw and processed datasets
+├── data/                       # Raw and processed datasets
+├── .github/
+│   └── workflows/
+│       ├── ci.yml              # Main test workflow
+│       └── dvc-push.yml        # DVC-specific workflow
 ├── Notebooks/                  # Task-based Jupyter notebooks
 │   ├── Task1/                  # Data cleaning, EDA, transformation
 │   ├── Task2/                  # Model training and evaluation
